@@ -1,5 +1,4 @@
-# generate_spherepack
-Generate 3D randomly generated sphere packs (porous media)
+# Generate 3D randomly generated sphere packs (porous media)
 
 Features
 - __Brute-force packing__: Implements a simple algorithm for randomly placing spheres while checking for collisions/overlapping.
@@ -26,3 +25,4 @@ from genrandsp import *
 ------------------
 **Contributions:**
 * Feel free to reach out if you're interested in contributing by fixing bugs or implementing new features and algorithms. We welcome your contributions!
+* Brace yourself for some wild variable naming and messy code ahead! :))))
