@@ -161,24 +161,22 @@ state = initResSol(G, 100*barsa, 0.0);
 
 ---
 
-## Tutorial Notebook
+## Interactive Tutorial Notebooks
 
-For an interactive, visual walkthrough of every feature, open:
-```bash
-jupyter notebook examples_v2.ipynb
-```
+A modular suite of step-by-step Jupyter notebooks is available in the [`notebooks/`](notebooks/) directory:
 
-The notebook covers:
-- Continuous PSDs and probability density plots
-- Accelerated RSA generation and orthogonal slice visualization
-- Gravitational ballistic sedimentation with mechanical contact coordination histograms
-- Dense Random Packing (FBA + FIRE) breaking the RSA jamming limit
-- Continuum Spectral GRF (Gaussian, Exponential, Von Kármán) and QSGS cluster growth
-- Diagenetic sequence (compaction $\to$ cementation $\to$ dissolution)
-- Petrophysical curves ($S_2(r)$ autocorrelation, chord length distributions)
-- Pore network extraction (SNOW2)
-- Multi-format file exporters (TIFF, VTK, MRST `.mat`, CSV)
-- Legacy API compatibility
+1. [**`01_quickstart_and_psd.ipynb`**](notebooks/01_quickstart_and_psd.ipynb): Quickstart, geological PSDs (LogNormal, Weibull, Sieve curves with analytical Hatch-Choate volume-to-number conversion), accelerated RSA generation, and `VoxelGrid` rasterization.
+2. [**`02_physical_generators.ipynb`**](notebooks/02_physical_generators.ipynb): 3D Ballistic Sedimentation ("Drop-and-Roll" under gravity), Dense Random Packing (FBA + FIRE breaking the RSA jamming limit), and Continuum Spectral GRF / QSGS cluster growth.
+3. [**`03_diagenesis_and_petrophysics.ipynb`**](notebooks/03_diagenesis_and_petrophysics.ipynb): Geological diagenetic sequence (compaction $\to$ cementation $\to$ dissolution) and petrophysics (effective porosity, $S_v$, $S_2(r)$, chords, Kozeny-Carman, SNOW2 PNM).
+4. [**`04_reservoir_simulation_and_exports.ipynb`**](notebooks/04_reservoir_simulation_and_exports.ipynb): Multiformat exporters (3D TIFF, ParaView VTK, Parquet, CSV) and complete MATLAB MRST single-phase flow simulation workflow.
+
+Alternatively, a comprehensive all-in-one demonstration is available in [`examples_v2.ipynb`](examples_v2.ipynb).
+
+---
+
+## Developer & Agent Guide
+
+For AI coding agents and developers working on or extending the codebase, consult [**`AGENTS.md`**](AGENTS.md) for architectural guidelines, domain terminology rules ([`CONTEXT.md`](CONTEXT.md)), standard recipes, and quality gates.
 
 ---
 
