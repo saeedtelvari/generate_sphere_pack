@@ -8,6 +8,50 @@
 
 Originally developed as a simple random sphere pack generator, the repository has been completely modernized into an extensible, scientifically grounded framework.
 
+
+---
+
+## Visual Gallery & Showcase
+
+<table>
+  <tr>
+    <td width="50%">
+      <h4 align="center">Geological Particle Size Distributions (PSD)</h4>
+      <img src="assets/psd_distributions.png" alt="Geological PSD Distributions" width="100%"/>
+      <p align="center"><em>Continuous Log-Normal, Weibull, and Empirical Sieve PSDs with Hatch-Choate analytical volume-to-number transformation.</em></p>
+    </td>
+    <td width="50%">
+      <h4 align="center">3D Orthogonal Binary Slices (Lagrangian &rarr; Eulerian)</h4>
+      <img src="assets/rsa_orthogonal_slices.png" alt="RSA Orthogonal Slices" width="100%"/>
+      <p align="center"><em>Sub-volume voxel rasterization (YZ, XZ, XY slices) preserving hard-sphere boundaries and periodic wrap-around.</em></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h4 align="center">3D Ballistic Sedimentation ("Drop-and-Roll")</h4>
+      <img src="assets/sedimentation_bed.png" alt="Sedimentation Bed and Coordination" width="100%"/>
+      <p align="center"><em>Realistic gravitational settling under gravity: topographic bed height map and stable coordination numbers (Z = 3 to 8).</em></p>
+    </td>
+    <td width="50%">
+      <h4 align="center">Continuum Bicontinuous Digital Rocks</h4>
+      <img src="assets/continuum_grf_qsgs.png" alt="Spectral GRF vs QSGS" width="100%"/>
+      <p align="center"><em>Level-cut Spectral 3D Gaussian Random Fields (Von K&aacute;rm&aacute;n kernel) and Quartet Structure Generation Set (QSGS).</em></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h4 align="center">4-Stage Diagenetic History Modeling</h4>
+      <img src="assets/diagenesis_evolution.png" alt="Diagenetic Evolution" width="100%"/>
+      <p align="center"><em>Depositional grain assembly &rarr; Uniaxial vertical compaction &rarr; EDT syntaxial cementation &rarr; Core dissolution.</em></p>
+    </td>
+    <td width="50%">
+      <h4 align="center">Digital Rock Petrophysics Characterization</h4>
+      <img src="assets/petrophysics_s2_chords.png" alt="Petrophysics S2 and Chords" width="100%"/>
+      <p align="center"><em>Pore-scale Two-Point Correlation Function S<sub>2</sub>(r) and chord length probability density distributions.</em></p>
+    </td>
+  </tr>
+</table>
+
 ---
 
 ## Key Features
